@@ -76,13 +76,13 @@ This repository contains scripts and workflows for analyzing variability in larg
 
    - `Master_thesis_code/pseudobulk/permutations/pseudobulk_permutations_labels.R`
 
-     This script perform label shuffling for the permutation tests.
+     This script performs label shuffling for the permutation tests.
 
 ### scran directory
 
    - `Master_thesis_code/scran/scran_main_analysis.R`
 
-     This script performs the main analysis using the _scran_ package, which is commonly used for single-cell RNA-seq data analysis. The analysis could include normalization, variance modeling, and identification of DVGs.
+     This script performs the main analysis using the _scran_ package, commonly used for single-cell RNA-seq data analysis. The analysis could include normalization,        variance modeling, and identification of DVGs.
 
    - `Master_thesis_code/scran/scran_merging_celltypes.R`
 
@@ -90,12 +90,12 @@ This repository contains scripts and workflows for analyzing variability in larg
 
    - `Master_thesis_code/scran/scran_permutations.R`
 
-     This script probably performs permutation tests using the scran package. It might be used to assess the significance of observed patterns in single-cell RNA-seq data by comparing them to random permutations.
+     This script performs permutation tests using the _scran_ package. It is used to assess the reliability of detected DVGs in DVA analysis data by comparing them to random permutations.
 
    - `Master_thesis_code/scran/scran_permutations_labels.R`
 
-     This script likely handles labeling or organizing the results of permutation tests conducted with scran. It might involve annotating permutation test results for easier interpretation and visualization.
+     This script handles label shuffling of permutation tests conducted with _scran_.
 
    - `Master_thesis_code/scran/scran_plots.R`
 
-     This script likely generates various plots using the scran package. These plots might include visualizations of gene expression, dispersion, cell type distributions, and other relevant metrics from single-cell RNA-seq data.
+     This script generates various plots using the _scran_ package. It includes the plotting for the permutation analysis, the barplot for the number of DVGs per cell type and the variability decomposition. 
